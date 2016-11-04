@@ -1,8 +1,10 @@
 <?php
 
-$condition = 0;
+$condition = false;
 if ($condition) {
     echo 'Podmínka prošla!';
+} else {
+    echo 'Podmínka neprošla :( ';
 }
 
 die('Tady skončíme');
