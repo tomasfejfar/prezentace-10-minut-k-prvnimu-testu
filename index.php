@@ -1,5 +1,10 @@
 <?php
 
+$condition = true;
+if ($condition) {
+    echo 'Podmínka prošla!';
+}
+
 die('Tady skončíme');
 $name = $_GET['name'];
 $title = 'Hello ' . $name;
