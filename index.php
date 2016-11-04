@@ -1,6 +1,6 @@
 <?php
 
-$condition = false;
+$condition = 0;
 if ($condition) {
     echo 'Podmínka prošla!';
 }
