@@ -10,9 +10,7 @@
 <body>
 <h1><?= $title ?></h1>
 <ul>
-    <li><?= $hobbies[0] ?></li>
-    <li><?= $hobbies[1] ?></li>
-    <li><?= $hobbies[2] ?></li>
+    <li><?= $hobbies ?></li>
 </ul>
 </body>
 </html>
