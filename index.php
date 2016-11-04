@@ -1,12 +1,10 @@
 <?php
 
 if (isset($_GET['name'])) {
-    echo 'Podmínka prošla!';
+    $name = $_GET['name'];
 } else {
-    echo 'Podmínka neprošla :( ';
+    $name = 'World';
 }
 
-die('Tady skončíme');
-$name = $_GET['name'];
 $title = 'Hello ' . $name;
 require_once 'page.view.php';
