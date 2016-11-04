@@ -1,7 +1,6 @@
 <?php
 
-$condition = isset($_GET['name']);
-if ($condition) {
+if (isset($_GET['name'])) {
     echo 'Podmínka prošla!';
 } else {
     echo 'Podmínka neprošla :( ';
