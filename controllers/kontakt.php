@@ -1,5 +1,4 @@
 <?php
-echo 'Jsme na stránce ' . $_GET['page'];
 $hobbies = [
     'trekking',
     'učení',
