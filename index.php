@@ -24,4 +24,5 @@ if (isset($_GET['page'])) {
         $name = 'World';
     }
     $title = 'Hello ' . $name;
+    require_once 'hlavni.view.php';
 }
