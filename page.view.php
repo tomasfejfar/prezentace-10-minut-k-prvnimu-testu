@@ -12,6 +12,7 @@
 <ul>
     <li><?= $hobby1 ?></li>
     <li><?= $hobby2 ?></li>
+    <li><?= $hobby3 ?></li>
 </ul>
 </body>
 </html>
