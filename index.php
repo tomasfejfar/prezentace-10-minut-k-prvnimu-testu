@@ -6,9 +6,11 @@ if (isset($_GET['name'])) {
     $name = 'World';
 }
 
-$hobby1 = 'trekking';
-$hobby2 = 'učení';
-$hobby3 = 'čaj';
+$hobbies = [
+    'trekking',
+    'učení',
+    'čaj',
+];
 
 $title = 'Hello ' . $name;
 require_once 'page.view.php';
