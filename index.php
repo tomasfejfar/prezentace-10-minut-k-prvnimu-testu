@@ -12,5 +12,11 @@ $hobbies = [
     'čaj',
 ];
 
+$person = [
+    'Tomáš',
+    'Fejfar',
+    'tomas.fejfar@gmail.com'
+];
+
 $title = 'Hello ' . $name;
 require_once 'page.view.php';

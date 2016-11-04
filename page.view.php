@@ -14,5 +14,12 @@
         echo '<li>' . $hobby . '</li>';
     } ?>
 </ul>
+
+<ul>
+    <?php foreach ($person as $information) {
+        echo '<li>' . $information . '</li>';
+    } ?>
+</ul>
+
 </body>
 </html>
