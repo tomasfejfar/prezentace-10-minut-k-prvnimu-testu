@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Moje stránka - <?= $title ?></title>
+    <title>Moje stránka - Kontakt</title>
 </head>
 <body>
 <ul>
@@ -13,7 +13,7 @@
     <li><a href="/?page=kontakt">Kontakt</a></li>
 </ul>
 
-<h1><?= $title ?></h1>
+<h1>Kontakt</h1>
 <ul>
     <?php foreach ($hobbies as $hobby) {
         echo '<li>' . $hobby . '</li>';
