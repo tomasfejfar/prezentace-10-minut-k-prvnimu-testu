@@ -13,9 +13,9 @@ $hobbies = [
 ];
 
 $person = [
-    'Tomáš',
-    'Fejfar',
-    'tomas.fejfar@gmail.com'
+    'Jméno' => 'Tomáš',
+    'Příjmení' => 'Fejfar',
+    'Email' => 'tomas.fejfar@gmail.com'
 ];
 
 $title = 'Hello ' . $name;

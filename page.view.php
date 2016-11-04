@@ -16,8 +16,8 @@
 </ul>
 
 <ul>
-    <?php foreach ($person as $information) {
-        echo '<li>' . $information . '</li>';
+    <?php foreach ($person as $title => $information) {
+        echo '<li>' . $title . ': ' . $information . '</li>';
     } ?>
 </ul>
 
