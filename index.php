@@ -15,6 +15,7 @@ if (isset($_GET['page'])) {
         'Příjmení' => 'Fejfar',
         'Email' => 'tomas.fejfar@gmail.com'
     ];
+    require_once 'page.view.php';
 } else {
     echo 'Jsme na hlavní stránce';
     if (isset($_GET['name'])) {
@@ -24,6 +25,3 @@ if (isset($_GET['page'])) {
     }
     $title = 'Hello ' . $name;
 }
-
-
-require_once 'page.view.php';
