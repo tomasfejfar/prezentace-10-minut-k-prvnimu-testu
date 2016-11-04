@@ -18,5 +18,11 @@ $person = [
     'Email' => 'tomas.fejfar@gmail.com'
 ];
 
+if (isset($_GET['page'])) {
+    echo 'Jsme na stránce ' . $_GET['page'];
+} else {
+    echo 'Jsme na hlavní stránce';
+}
+
 $title = 'Hello ' . $name;
 require_once 'page.view.php';
