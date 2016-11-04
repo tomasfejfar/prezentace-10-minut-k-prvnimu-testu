@@ -9,5 +9,9 @@
 </head>
 <body>
 <h1><?= $title ?></h1>
+<ul>
+    <li><?= $hobby1 ?></li>
+    <li><?= $hobby2 ?></li>
+</ul>
 </body>
 </html>
