@@ -8,6 +8,11 @@
     <title>Moje stránka - <?= $title ?></title>
 </head>
 <body>
+<ul>
+    <li><a href="/">Hlavní stránka</a></li>
+    <li><a href="/?page=kontakt">Kontakt</a></li>
+</ul>
+
 <h1><?= $title ?></h1>
 <ul>
     <?php foreach ($hobbies as $hobby) {
