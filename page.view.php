@@ -10,7 +10,9 @@
 <body>
 <h1><?= $title ?></h1>
 <ul>
-    <li><?= $hobbies ?></li>
+    <?php foreach ($hobbies as $hobby) {
+        echo '<li>' . $hobby . '</li>';
+    } ?>
 </ul>
 </body>
 </html>
