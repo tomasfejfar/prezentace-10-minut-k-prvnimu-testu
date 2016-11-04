@@ -8,6 +8,7 @@
     <title>Hlavní stránka</title>
 </head>
 <body>
+<?php require 'menu.php' ?>
 <h1><?= $title ?></h1>
 </body>
 </html>

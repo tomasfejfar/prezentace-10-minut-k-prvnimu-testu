@@ -8,10 +8,7 @@
     <title>Moje stránka - Kontakt</title>
 </head>
 <body>
-<ul>
-    <li><a href="/">Hlavní stránka</a></li>
-    <li><a href="/?page=kontakt">Kontakt</a></li>
-</ul>
+<?php require 'menu.php' ?>
 
 <h1>Kontakt</h1>
 <ul>
