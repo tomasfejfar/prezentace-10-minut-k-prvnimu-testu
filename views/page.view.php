@@ -8,7 +8,7 @@
     <title><?= $app['title'] ?></title>
 </head>
 <body>
-<?php require 'menu.php' ?>
+<?php require 'views/partials/menu.php' ?>
 
 <h1>Kontakt</h1>
 <ul>
