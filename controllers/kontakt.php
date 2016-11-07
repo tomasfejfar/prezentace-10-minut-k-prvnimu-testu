@@ -10,4 +10,4 @@ $person = [
     'Příjmení' => 'Fejfar',
     'Email' => 'tomas.fejfar@gmail.com'
 ];
-require_once 'page.view.php';
+require_once 'views/page.view.php';

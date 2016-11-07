@@ -5,4 +5,4 @@ if (isset($_GET['name'])) {
     $name = 'World';
 }
 $title = 'Hello ' . $name;
-require_once 'hlavni.view.php';
+require_once 'views/hlavni.view.php';
