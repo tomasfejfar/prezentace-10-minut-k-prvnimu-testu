@@ -1,4 +1,5 @@
 <?php
+$app['title'] = 'Kontakt';
 $hobbies = [
     'trekking',
     'učení',

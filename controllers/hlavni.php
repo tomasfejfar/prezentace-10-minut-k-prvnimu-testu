@@ -1,4 +1,5 @@
 <?php
+$app['title'] = 'Hlavní stránka';
 if (isset($_GET['name'])) {
     $name = $_GET['name'];
 } else {
