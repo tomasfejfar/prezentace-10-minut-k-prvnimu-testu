@@ -1,6 +1,9 @@
 <?php
 $app['title'] = 'Napište mi';
 if (count($_POST)) {
-    var_dump($_POST);
+    echo htmlspecialchars($_POST['name']);
+    echo '<br>';
+    echo htmlspecialchars($_POST['message']);
+} else {
+    require 'views/napistemi.php';
 }
-require 'views/napistemi.php';
